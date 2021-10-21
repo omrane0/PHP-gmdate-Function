@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+print_r(localtime());
+echo "<br><br>";
+print_r(localtime(time(),true));
+?>
+
+</body>
+</html>
+
+
+
+
+Array ( [0] => 13 [1] => 13 [2] => 17 [3] => 21 [4] => 9 [5] => 121 [6] => 4 [7] => 293 [8] => 0 )
+
+Array ( [tm_sec] => 13 [tm_min] => 13 [tm_hour] => 17 [tm_mday] => 21 [tm_mon] => 9 [tm_year] => 121 [tm_wday] => 4 [tm_yday] => 293 [tm_isdst] => 0 )
